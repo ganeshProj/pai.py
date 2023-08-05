@@ -2,11 +2,12 @@ import requests
 
 from datetime import datetime
 
-# usar_api= os.environ['6b2c453784f528b0c9cff410e71bd9fd']
-usar_api = '6b2c453784f528b0c9cff410e71bd9fd'
-location = input("Enter the city name: ")
 
-#https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+usar_api = '6b2c453784f528b0c9cff410e71bd9fd'
+
+location =input("Enter the city name: ")
+
+
 
 def kel_to_cel(kelvin):
     celsius = kelvin - 273.15
